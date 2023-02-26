@@ -8,11 +8,12 @@
     
 </head>
 <body>
-    <h1 class="showmaker">Manipulación del DOM</h1>
-    <p>Esto es un parrafo</p>
-    <p class="pclass">Esto es un parrafo</p>
-    <p id="pid">Esto es un parrafo</p>
-    <input placeholder="escribe algo aqui" type="text">
+    <h1>Manipulación del DOM</h1>
+    <input onchange="console.log('n1 filled')" id="n1" placeholder="Escribe algo">
+    <input onchange="console.log('n2 filled')" id="n2" placeholder="Escribe algo">
+    <button id="OP" onclick='btnOP()' >Calcular</button>
+
+    <p id="resultado"></p>
 
 
     <script src="main.js"></script>
